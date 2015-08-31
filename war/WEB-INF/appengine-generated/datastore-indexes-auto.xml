@@ -1,0 +1,11 @@
+<!-- Indices written at Tue, 12 May 2015 14:02:25 JST -->
+
+<datastore-indexes>
+
+    <!-- Used 7 times in query history -->
+    <datastore-index kind="ArticleModel" ancestor="false" source="auto">
+        <property name="publicFlg" direction="asc"/>
+        <property name="createDate" direction="desc"/>
+    </datastore-index>
+
+</datastore-indexes>
